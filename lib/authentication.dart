@@ -9,6 +9,7 @@ import 'HomePage.dart';
 
 class Authentication {
   static Future<FirebaseApp> initializeFirebase({
+    //Initialize Firebase
     required BuildContext context,
   }) async {
     FirebaseApp firebaseApp = await Firebase.initializeApp();
@@ -29,6 +30,7 @@ class Authentication {
   }
 
   static Future<User?> signInWithGoogle({required BuildContext context}) async {
+    //Implement Google Sign-In
     FirebaseAuth auth = FirebaseAuth.instance;
     User? user;
 

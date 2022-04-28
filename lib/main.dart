@@ -19,4 +19,7 @@ class MyApp extends StatelessWidget {
       home: SignInScreen(),
     );
   }
+//generate signing report using keytool -list -v -keystore "C:\Users\Nithin\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+  //Create a new Firebase project by going to the Firebase console.Link(https://medium.com/flutter-community/flutter-implementing-google-sign-in-71888bca24ed)
+
 }
