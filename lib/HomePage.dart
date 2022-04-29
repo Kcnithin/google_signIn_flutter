@@ -53,7 +53,7 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
       appBar: AppBar(
         elevation: 0,
         backgroundColor: Colors.transparent,
-        title: const Text("Home Page"),
+        title: const Text("HomePage"),
       ),
       body: SafeArea(
         child: Padding(
